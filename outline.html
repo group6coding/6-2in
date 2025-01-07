@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+
+<link rel="stylesheet" href="outline.css">
+<script src="home.js"></script>
+<body>
+    <nav>
+            <ul class="nav">
+                <li><a href="about.html">DEWY STARS GAMING</a></li>
+                <li><a href="Homepage.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="obs.html">OBS</a></li>
+                <li onclick=showsidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+            <ul class="sidebar">
+                <li class="onclick"><a href="#" onclick=hidesidebar()><svg class="svg" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                
+                <li><a href="Homepage.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="obs.html">OBS</a></li>
+                <li><a href="outline.html">STREAM OUTLINE</a></li>
+                <li><a href="Stream.html">BRAINSTORM</a></li>
+                <li><a href="promo.html">PROMOTIONAL PLAN</a></li>
+                <script>
+                    function showsidebar(){
+                    const sidebar = document.querySelector('.sidebar')
+                    sidebar.style.display = 'flex'
+                    }
+                    function hidesidebar(){
+                    const sidebar = document.querySelector('.sidebar')
+                    sidebar.style.display = 'none'
+                    }
+                   </script>
+
+            </ul>
+    </nav>
+
+</div>
+<h3 class="outline-title">STREAM OUTLINE <i>(click the questions)</i></h3>
+<section class="promo">
+    <div class="promocard"> 
+        <h2 onclick="openpromocard()">1. How long should you stream? </h2>
+        <p class="description">A minimum of 40 minutes.</p>
+    </div>
+
+
+    <div class="promocard2">
+        <h2 onclick="openpromocard2()">2. What do you want to happen in your stream during the duration you set?  </h2>
+        <p class="description2">Achieve the activities with the duration time we set.</p>
+    </div>
+
+
+    <div class="promocard3">
+        <h2 onclick="openpromocard3()">3. What is your content?  </h2>
+        <p class="description3">We will be playing a mobile game called Mobile Legends: Bang Bang.</p>
+    </div>
+
+
+    <div class="promocard4">
+        <h2 onclick="openpromocard4()">4. How do you want your content to run in your stream?</h2>
+        <p class="description4"><i>As much as possible, no lag or any type of glitch.</i></p>
+    </div>
+
+
+    <div class="promocard5">
+        <h2 onclick="openpromocard5()">5. Will you hold discussions? </h2>
+        <p class="description5"><i>Yes, we will hold discussions.</i></p>
+    </div>
+
+
+    <div class="promocard6">
+        <h2 onclick="openpromocard6()">6. Will you talk to your viewers while you stream? What are the topics you will talk about? 
+        </h2>
+        <p class="description6"><i>Yes, we could talk about the game like recommendations for the player and how they would rate our gameplay.</i></p>
+    </div>
+
+
+    <div class="promocard7">
+        <h2 onclick="openpromocard7()">7. Will you change your content in the middle of the stream? If yes, what are you planning to replace it with? </h2>
+        <p class="description7"><i>No.</i></p>
+    </div>
+
+
+    <div class="promocard8">
+        <h2 onclick="openpromocard8()">8. What are the ways you will interact with the viewers? 
+        </h2>
+        <p class="description8"><i>By talking and responding to their chats in the comment section.
+        </i></p>
+    </div>
+
+
+    <div class="promocard9">
+        <h2 onclick="openpromocard9()">9. Will you be using your audio for the whole duration?</h2>
+        <p class="description9"><i>Yes.</i></p>
+    </div>
+
+
+    <div class="promocard10">
+        <h2 onclick="openpromocard10()">10. What will appear on your screen for the whole duration of your stream? </h2>
+        <p class="description10"><i>Our gameplay, players, and chatbox.
+        </i></p>
+    </div>
+
+
+    <div class="promocard11">
+        <h2 onclick="openpromocard11()">11. Will you change your overlays every hour? 
+        </h2>
+        <p class="description11"><i>No</i></p>
+    </div>
+
+
+    <div class="promocard12">
+        <h2 onclick="openpromocard12()">12. Will you have a break? How long will that take?         </h2>
+        <p class="description12"><i>about 5 to 10 minutes.</i></p>
+    </div>
+
+
+    <div class="promocard13">
+        <h2 onclick="openpromocard13()">13. Is there a video you want to play while you are streaming? What are those? Do you own the video? If not, does it follow the Digital Millennium Copyright Act (DMCA) guidelines? </h2>
+        <p class="description13"><i>No, we do not want to play any video that is not ours on our stream.</i></p>
+    </div>
+
+</section>
+
+<table class="table">
+    <tr bgcolor="blue">
+      <th>Time(PM)</th>
+      <th>Topic</th>
+      <th>Activity</th>
+      <th>Time Allotment(mins)</th>
+      <th>Screen</th>
+      <th>Audio</th>
+    </tr>
+    <tr bgcolor="white">
+      <td>3:00 - 3:10</td>
+      <td>Preparing/Starting</td>
+      <td>Show Introduction Video (ON LOOP)</td>
+      <td>10</td>
+      <td>Introduction Video</td>
+      <td>Audio from Introduction Video</td>
+    </tr>
+    <tr>
+        <td>3:10 - 3:25</td>
+        <td>Introduction of Playing Members</td>
+        <td>Introducing members and explaining what we will be doing for our video</td>
+        <td>15</td>
+        <td>Camera switches to the next person introducing and who explains the game</td>
+        <td>Audio from the members</td>
+    </tr>
+
+   
+    <tr>
+        <td>3:25 - 3:30</td>
+        <td>Preparing for the game/Matchmaking</td>
+        <td>Setting up the devices needed and checking if everything is stable</td>
+        <td>5</td>
+        <td>Cell phone screen</td>
+        <td>Muted</td>
+    </tr>
+    <tr>
+        <td>3:30 - 3:50</td>
+        <td>Game starts</td>
+        <td>Matchmaking/Gameplay</td>
+        <td>20</td>
+        <td>Member screen/ Gameplay showcase</td>
+        <td>From members’s mic and game audio</td>
+    </tr>
+
+    <tr>
+        <td>3:50 - 4:00</td>
+        <td>Game ends</td>
+        <td>10 min break/ interact with the viewers or comment section </td>
+        <td>10</td>
+        <td>Frozen screen of a member’s cellphone</td>
+        <td>From mic</td>
+    </tr>
+
+    <tr>
+        <td>4:00 - 4:30</td>
+        <td>Game starts (Rank mode)</td>
+        <td>Matchmaking/ Gameplay</td>
+        <td>30</td>
+        <td>Member screen/ Gameplay showcase</td>
+        <td>From members’s mic and game audio</td>
+    </tr>
+    <tr>
+        <td>4:30 - 4:40</td>
+        <td>Game ends/ 
+            Ask about the gameplay if it was good, and ask for ratings</td>
+            <td>Interacting with comment section and announcing who had the most wins/kills </td>
+            <td>10</td>
+            <td>Member's camera</td>
+            <td> From mic
+            </td>
+    </tr>
+
+  </table>
+<section class="shapes">
+    <div class="square"></div>
+    <div class="square2"></div>
+    <div class="square3"></div>
+    <div class="square4"></div>
+    <div class="square5"></div>
+    <div class="square6"></div>
+    <div class="square7"></div>
+    <div class="square8"></div>
+    <div class="square9"></div>
+    </section>
+
+
+<div class="obsimage"></div>
+<div class="obsimage2"></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
